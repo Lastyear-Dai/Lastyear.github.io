@@ -1,37 +1,73 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/Lastyear-Dai/Lastyear.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html lang="en">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<head>
+ <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<title>I LOVE YOU</title>
 
-### Markdown
+</head>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<body style="background-size: 100%;"  background="https://f12.baidu.com/it/u=3260811542,2920938468&fm=173&app=49&f=JPEG?w=640&h=1384&s=34B9EF371DA1E8455A60F7F603001037">
 
-```markdown
-Syntax highlighted code block
+   
+    
+  
+  
+  
+<div id="app">
+  <h4  align="center" style="color:white;" >"小姐姐，我观察你很久啦！"</h4>
+  <h3 align="center" style="color:white;"  >做我女朋友好不好？</h3>
+  <div align="center"><img  width="200xp"  height="200xp" align="center" :src="src"></div>
+  <div align="center"><input  @click="nlove" class="btn btn-default" type="button" value="好">   
+  <input  @click="love" class="btn btn-default" type="button" value="不好"></div>
+  
+  
+  
+  
+</div>
+  
+  
+ 
+  <script>
+    
+  
+    
+    
+  var app = new Vue({
+  el: '#app',
+  data: {
+    src:"https://img2.baidu.com/it/u=2605118700,2857876195&fm=253&fmt=auto&app=138&f=JPEG?w=440&h=440",
+    i:0,
+    loveyou:["你比游戏重要.","哎呀，保大！","工资归你管！","求求，答应吧！"]
+  },
+   methods:{
+     
+     love:function(){
+       
+       if(this.i<4){
+       alert(this.loveyou[this.i]);
+       this.i++;}
+       else
+        this.i=0;
+         
+     },
+     nlove:function(){
+       alert("真的吗！耶耶耶！");
+        alert("既然在一起了就快联系我吧！亲爱的，木马…");
+       this.src="https://img-qn.51miz.com/Element/00/88/75/90/d4690481_E887590_8465dd53.png!/quality/90/unsharp/true/compress/true/format/png/fw/300";
+  }
+   }
+})
+  </script>
+</body>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Lastyear-Dai/Lastyear.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html></html>
