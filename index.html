@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 导入bootstrap.css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" >
+    <!-- 导入jq.js -->
+    <script src="./js/popper.min.js" ></script>
+    <script src="./js/jquery.slim.min.js" ></script>
+   <!-- 导入bootstrap.js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- 导入自己写的css -->
+    <link rel="stylesheet" href="./css/oneself.css" >
+    <link rel="stylesheet" href="css/index.css">
+    <title>我们</title>
+</head>
+<style>
+  /* 取消bootstrap文字下划线 
+   .btn-link:hover 
+    .btn-link.focus
+    .btn-link:focus*/
+    .btn-link:hover {text-decoration: none;}
+    .btn-link.focus, 
+    .btn-link:focus  {text-decoration: none; }
+/*******************************************/
+
+</style>
+<body>
+<!--    标题    -->
+        <p style="text-align:center; line-height:50px;">点&nbsp;点&nbsp;滴&nbsp;滴&nbsp;,&nbsp;一&nbsp;如&nbsp;你&nbsp;,&nbsp;一&nbsp;如&nbsp;我</p>
+        <p class="title">回   &nbsp;  忆   &nbsp;  录</p>
+  <!-- * **************************************** *-->
+
+<!-- 时间计时 -->
+    <div class="textCon">
+        <div class="words">我的小欣欣,今天是认识你的第</div>
+        <div class="days">
+            <span class="days-number">18</span>
+            <span class="days-label">天</span>
+        </div>
+        <div class="seconds">15 hours 24 minutes 30 seconds</div>
+<!-- * **************************************** *-->
+
+
+<!-- 整个时间轴div  accordionExample-->
+<div class="accordion" id="accordionExample">
+   <!-- 第一个时间轴 -->
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+           <!-- 时间 -->
+            我们的开始
+          </button>
+        </h2>
+      </div>
+  
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+       <!-- 内容区div -->
+        <div class="card-body">
+          <!-- 巨幕 -->
+          <div class="jumbotron">
+            <h1 class="display-4">你好呀，我的宝！</h1>
+            <p class="lead">拥有回忆，人生才得以丰润，岁月才满溢诗情。耽于回忆，青春却难免苍白，木人石心亦伤怀。</p>
+            <hr class="my-4">
+            <p >我将我们的回忆永远的留着这个胶囊之中。想念了，就回来看看！</p>
+          </div>
+           <!-- ************************-->
+        </div>
+      </div>
+    </div>
+    <!-- 第二个时间轴 -->
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block  collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <!-- 时间 -->
+            2022年9月29日
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+            <!-- 巨幕 -->
+         <div class="jumbotron">
+          
+          <img class="jpg1" src="./img/1.1.jpg"  alt="">
+          
+            <hr class="my-4">
+            
+            <p>这天凌晨闲的无聊，打开和平准备在世界聊天找人打游戏，看见了你发cpdd，我连续邀请了两遍!你同意了。。。</p>
+          </div>
+          <!-- ********************** -->
+        </div>
+      </div>
+    </div>
+<!-- 第三个时间轴 -->
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block  collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+             <!-- 时间 -->
+             2022年9月29日
+          </button>
+        </h2>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+           <!-- 巨幕 -->
+           <div class="jumbotron">
+          
+            <img class="jpg2" src="./img/1.2.jpg"  alt="">
+            
+              <hr class="my-4">
+              <p>打完游戏之后我们就加了好友，正所谓千里有缘来相会，我们正好验证了这句话！！</p>
+            
+            </div>
+            <!-- ********************** -->
+        </div>
+      </div>
+    </div>
+
+<!-- 第四个时间轴 -->
+<div class="card">
+  <div class="card-header" id="headingFour">
+    <h2 class="mb-0">
+      <button class="btn btn-link btn-block  collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+         <!-- 时间 -->
+         2022年9月29日
+      </button>
+    </h2>
+  </div>
+  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+    <div class="card-body">
+       <!-- 巨幕 -->
+       <div class="jumbotron">
+      <img class="jpg3" src="./img/3.1.jpg"  alt=""><img class="jpg3" src="./img/3.2.jpg"  alt=""><img class="jpg3" src="./img/3.3.jpg"  alt="">
+          <hr class="my-4">
+          <p>在爱情中，年龄不是问题，生命中充满着气息，把所有的一切，融入爱里，不问结局如何，只问爱在何方！！</p>
+        
+        </div>
+        <!-- ********************** -->
+    </div>
+  </div>
+</div>
+
+<!-- 第五个时间轴 -->
+<div class="card">
+  <div class="card-header" id="headingFive">
+    <h2 class="mb-0">
+      <button class="btn btn-link btn-block  collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFour">
+         <!-- 时间 -->
+         2022年9月29日
+      </button>
+    </h2>
+  </div>
+  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+    <div class="card-body">
+       <!-- 巨幕 -->
+       <div class="jumbotron">
+      
+        <img class="jpg2" src="./img/1.2.jpg"  alt="">
+        
+          <hr class="my-4">
+          <p>打完游戏之后我们就加了好友，正所谓千里有缘来相会，我们正好验证了这句话！！</p>
+        
+        </div>
+        <!-- ********************** -->
+    </div>
+  </div>
+</div>
+
+
+  </div>
+ <!-- * **************************************** *-->
+
+
+</div>
+<!-- 小爱心图形 -->
+ <!-- <div class="heart"></div>  -->
+ <!-- 时间和爱心动态互动js的导入 -->
+<script src="js/index.js"></script>
+<script src="js/love.js"></script>
+<!-- * **************************************** *-->
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+
+.title{
+    
+    font-size: 50px;
+    text-shadow:10px 25px 7px rgb(51,51,51);
+    text-align: center;
+    line-height: 0px;
+    font-weight: 700;
+    color: #011818;
+}
+
+.jpg1{
+    width: 100%;
+    height: 500px;
+    opacity:0.8;
+}
+.jpg2{
+
+    width: 100%;
+    height: 300px;
+    opacity:0.8;
+    
+}
+
+.jpg3{
+
+    width: 33%;
+    height: 300px;
+    opacity:0.8;
+    
+}
